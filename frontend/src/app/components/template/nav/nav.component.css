@@ -1,0 +1,19 @@
+.sidenav {
+     width: 200px;
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+}
+
+.sidenav a {
+    color: rgb(12, 1, 1);
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #FFF;
+}

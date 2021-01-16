@@ -1,0 +1,18 @@
+{
+  "beneficio": [
+    {
+      "nome": "Leonardo",
+      "CPF": "98347098343",
+      "orgao": "hjflkjdf",
+      "matricula": "8370943834",
+      "id": 1
+    },
+    {
+      "nome": "Jardel Gonçalves",
+      "CPF": "98769876",
+      "orgao": "SEPLAG",
+      "matricula": "76987965",
+      "id": 2
+    }
+  ]
+}
