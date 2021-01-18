@@ -2,17 +2,27 @@
   "beneficio": [
     {
       "nome": "Leonardo",
-      "CPF": "98347098343",
-      "orgao": "hjflkjdf",
-      "matricula": "8370943834",
+      "CPF": "06033",
+      "orgao": "SEPLAG",
+      "matricula": "88888",
+      "categoria": "Identificação-1",
       "id": 1
     },
     {
-      "nome": "Jardel Gonçalves",
-      "CPF": "98769876",
+      "nome": "Kamila",
+      "CPF": "535353535",
       "orgao": "SEPLAG",
-      "matricula": "76987965",
+      "matricula": "869879",
+      "categoria": "Vida Funcional",
       "id": 2
+    },
+    {
+      "nome": "Bredno",
+      "CPF": "00000",
+      "orgao": "jklblkjbhljk",
+      "matricula": "09870870",
+      "categoria": "Remuneração/Proventos",
+      "id": 3
     }
   ]
 }

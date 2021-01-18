@@ -4,4 +4,5 @@ export interface Beneficio {
     CPF: number
     orgao: string
     matricula: number
+    categoria: string
 }

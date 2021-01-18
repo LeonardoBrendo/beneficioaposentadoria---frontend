@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>Novo Documento</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome"
+            [(ngModel)]="beneficio.nome" name="nome">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CPF"
+            [(ngModel)]="beneficio.CPF" name="CPF">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createBeneficio()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
+

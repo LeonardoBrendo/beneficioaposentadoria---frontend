@@ -17,6 +17,16 @@
             <input matInput placeholder="Matrícula"
             [(ngModel)]="beneficio.matricula" name="matricula">
         </mat-form-field>
+        
+        <mat-form-field appearance="fill">
+            <mat-label>Categoria</mat-label>
+            <mat-select [(ngModel)]="beneficio.categoria" name="categoria">
+              <mat-option *ngFor="let categoria of categorias" [value]="categoria.viewValue">
+                {{categoria.viewValue}}
+              </mat-option>
+            </mat-select>
+        </mat-form-field>
+
     </form>
     <button mat-raised-button (click)="createBeneficio()" color="primary">
         Salvar

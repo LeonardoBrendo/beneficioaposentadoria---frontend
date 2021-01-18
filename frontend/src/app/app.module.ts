@@ -20,11 +20,10 @@ import { MatButtonModule } from  '@angular/material/button';
 import { MatSnackBarModule } from  '@angular/material/snack-bar';
 import { HttpClientModule } from  '@angular/common/http';
 
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { BeneficioReadComponent } from './components/beneficio/beneficio-read/beneficio-read.component';
-import { BeneficioRead2Component } from './components/beneficio/beneficio-read2/beneficio-read2.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
@@ -33,6 +32,8 @@ import { RedDirective } from './directives/red.directive';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from  '@angular/common';
 import { ForDirective } from './directives/for.directive';
+import {MatSelectModule} from '@angular/material/select';
+
 
 registerLocaleData(localePt);
 
@@ -46,7 +47,6 @@ registerLocaleData(localePt);
     BeneficioCrudComponent,
     BeneficioCreateComponent,
     BeneficioReadComponent,
-    BeneficioRead2Component,
     RedDirective,
     ForDirective
   ],
@@ -67,6 +67,8 @@ registerLocaleData(localePt);
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
+    ReactiveFormsModule,
+    MatSelectModule
   ],
   providers: [{
     provide: LOCALE_ID,
